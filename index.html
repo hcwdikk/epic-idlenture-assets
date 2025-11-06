@@ -45,13 +45,13 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" width="1280" height="720" data-pixel-art="true"></canvas>
-		<script src="Build/0.1.1.loader.js"></script>
+		<script src="Build/0.1.1-uncompressed.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/0.1.1.data.br",
-				frameworkUrl: "Build/0.1.1.framework.js.br",
-				codeUrl: "Build/0.1.1.wasm.br",
+				dataUrl: "Build/0.1.1-uncompressed.data",
+				frameworkUrl: "Build/0.1.1-uncompressed.framework.js",
+				codeUrl: "Build/0.1.1-uncompressed.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "impulse9",
 				productName: "Epic Idlenture",
